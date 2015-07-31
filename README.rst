@@ -10,6 +10,7 @@ How to use
 Add the application to your INSTALLED_APPS
 
 .. code-block:: python
+                
    INSTALLED_APPS = (
      ...
      'assets_angular',
@@ -24,6 +25,7 @@ Using it
 ---------------
 
 .. code-block:: python
+                
    from django_assets import Bundle, register                
 
    templates = Bundle(
